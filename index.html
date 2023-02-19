@@ -48,7 +48,6 @@
   </section>
 
   <section>
-    <!-- Quantity and profits -->
     <h2>Quantity and Profits</h2>
     <p>The store should refrain from selling items that cost more than their selling
       price, as
@@ -96,7 +95,6 @@
   </section>
 
   <section>
-    <!-- Items to get rid of -->
     <h2>Unprofitable Items</h2>
     <p>
       Items with a negative average unit price margin that do not sell well should be
@@ -114,7 +112,7 @@
       the sum of the quality sold, then filtered by negative unit price margin.
     </p><br />
     <!-- Tableau embed -->
-    <div class='tableauPlaceholder' id='viz1676840235916' style='position: relative'>
+    <div class='tableauPlaceholder' id='viz1676843297071' style='position: relative'>
       <noscript><a href='#'><img alt=' '
             src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;Datathon2023Groceries&#47;UnprofitableItemsDashboard&#47;1_rss.png'
             style='border: none' /></a></noscript><object class='tableauViz'
@@ -137,12 +135,11 @@
       </object>
     </div>
     <script
-      type='text/javascript'>                    var divElement = document.getElementById('viz1676840235916'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '1150px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+      type='text/javascript'>                    var divElement = document.getElementById('viz1676843297071'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '1150px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
     <!-- end embed -->
   </section>
 
   <section>
-    <!-- Basket Analysis-->
     <h2>Basket Analysis</h2>
     <p>
       Basket marketing is a tactical maneuver the store can employ to increase the number
@@ -181,7 +178,6 @@
   </section>
 
   <section>
-    <!-- Profit by hour of day -->
     <h2>Customer Behavior</h2>
     <p>
       The store should offer discounts at times with most customers and profits. Customers
@@ -226,6 +222,66 @@
     <script
       type='text/javascript'>                    var divElement = document.getElementById('viz1676779433769'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '1150px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
     <!-- end embed -->
+  </section>
+
+  <section>
+    <h2>Conclusion and Proposed Changes</h2>
+    <p>
+      Based on the observations outlined above, the store can increase its profits without
+      changing its operating times by removing unprofitable items sold at low quantities
+      and
+      increasing the price of items in high demand. Using this dashboard, the client can
+      choose
+      thresholds for quantity sold. The client should increase items that are unprofitable
+      but
+      sold at high quantities by a fixed multiplier to decrease losses.
+    </p>
+
+    <p>
+      For example, we determined that to recover the profit lost from changing operating
+      hours
+      the store just needs too:
+    <ul>
+      <li>Remove items with a negative profit that sold less than 150 count</li>
+      <li>Uniformly markup the price of items with at least 1000 items sold by 20%</li>
+    </ul>
+    </p>
+    <div class='tableauPlaceholder' id='viz1676842938786' style='position: relative'>
+      <noscript><a href='#'><img alt=' '
+            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;Datathon2023PriceMarginDashboard&#47;PriceMarginDashboard&#47;1_rss.png'
+            style='border: none' /></a></noscript><object class='tableauViz'
+        style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='site_root' value='' />
+        <param name='name'
+          value='Datathon2023PriceMarginDashboard&#47;PriceMarginDashboard' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image'
+          value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;Datathon2023PriceMarginDashboard&#47;PriceMarginDashboard&#47;1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='en-US' />
+      </object>
+    </div>
+    <script
+      type='text/javascript'>                    var divElement = document.getElementById('viz1676842938786'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '727px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+  </section>
+
+  <section>
+    <h2>View Tableau Files</h2>
+    <ul>
+      <li><a
+          href="https://public.tableau.com/views/Datathon2023Groceries/UnprofitableItemsDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link"
+          target="_blank" rel="noreferrer">Data visualizations</a></li>
+      <li><a
+          href="https://public.tableau.com/app/profile/bella.lee/viz/Datathon2023PriceMarginDashboard/PriceMarginDashboard?publish=yes"
+          target="_blank" rel="noreferrer">Price margin calculator</a></li>
+    </ul>
   </section>
 </body>
 
