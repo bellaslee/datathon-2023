@@ -6,8 +6,9 @@ $accent: #fc7300;
 body {
   font-family: 'Mulish', sans-serif;
   margin: 0;
-  scroll-snap-type: y mandatory;
+  scroll-snap-type: y proximity;
   scroll-behavior: smooth;
+  color: $primary;
 }
 
 h1 {
@@ -25,6 +26,24 @@ section {
   margin-right: auto;
   margin-bottom: 24px;
   scroll-snap-align: start;
+
+  &.half {
+    height: 25vh;
+    background-color: $tertiary;
+    width: 100%;
+    margin-top: -24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    div {
+      width: 75%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+  }
 }
 
 #title {
