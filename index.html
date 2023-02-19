@@ -50,6 +50,25 @@
   <section>
     <!-- Quantity and profits -->
     <h2>Quantity and Profits</h2>
+    <p>The store should refrain from selling items that cost more than their selling
+      price, as
+      they result in negative profits. The client can use the below visualization to
+      filter by
+      item and analyze peak seasons at a glance.</p>
+
+    <p>Avocados exemplify this trend — there was a significant positive total profit when
+      the
+      store was growing the avocados themselves, but they were forced to sell at a loss
+      when the
+      cost of acquiring avocados went up. To prevent loss, the store should maximize
+      products
+      that can be acquired or produced at low costs, and either 1. decrease their stock or
+      2.
+      increase the price of these items during seasons where they cost extra to acquire
+      and are
+      not in demand. Increasing the price of items is a viable option when the demand does
+      not
+      decrease significantly in periods of negative profit.</p><br />
 
     <!-- Tableau embed -->
     <div class='tableauPlaceholder' id='viz1676783885887' style='position: relative'>
@@ -78,21 +97,36 @@
 
   <section>
     <!-- Items to get rid of -->
-    <h2>Items With Negative Profits</h2>
+    <h2>Unprofitable Items</h2>
+    <p>
+      Items with a negative average unit price margin that do not sell well should be
+      removed
+      from the store. However, the store can increase the price of items with high
+      quantities
+      sold that have a negative unit price margin, as the demand is high enough to warrant
+      this
+      change.
+    </p>
+
+    <p>
+      To determine these items, we created a visualization for the average unit price
+      margin and
+      the sum of the quality sold, then filtered by negative unit price margin.
+    </p><br />
     <!-- Tableau embed -->
-    <div class='tableauPlaceholder' id='viz1676768348224' style='position: relative'>
+    <div class='tableauPlaceholder' id='viz1676840235916' style='position: relative'>
       <noscript><a href='#'><img alt=' '
-            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;Datathon2023Groceries&#47;NegativeProfits&#47;1_rss.png'
+            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;Datathon2023Groceries&#47;UnprofitableItemsDashboard&#47;1_rss.png'
             style='border: none' /></a></noscript><object class='tableauViz'
         style='display:none;'>
         <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
         <param name='embed_code_version' value='3' />
         <param name='site_root' value='' />
-        <param name='name' value='Datathon2023Groceries&#47;NegativeProfits' />
+        <param name='name' value='Datathon2023Groceries&#47;UnprofitableItemsDashboard' />
         <param name='tabs' value='yes' />
         <param name='toolbar' value='yes' />
         <param name='static_image'
-          value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;Datathon2023Groceries&#47;NegativeProfits&#47;1.png' />
+          value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;Datathon2023Groceries&#47;UnprofitableItemsDashboard&#47;1.png' />
         <param name='animate_transition' value='yes' />
         <param name='display_static_image' value='yes' />
         <param name='display_spinner' value='yes' />
@@ -103,13 +137,24 @@
       </object>
     </div>
     <script
-      type='text/javascript'>                    var divElement = document.getElementById('viz1676768348224'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; } else { vizElement.style.width = '100%'; vizElement.style.minHeight = '1150px'; vizElement.style.maxHeight = (divElement.offsetWidth * 1.77) + 'px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+      type='text/javascript'>                    var divElement = document.getElementById('viz1676840235916'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '1150px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
     <!-- end embed -->
   </section>
 
   <section>
     <!-- Basket Analysis-->
     <h2>Basket Analysis</h2>
+    <p>
+      Basket marketing is a tactical maneuver the store can employ to increase the number
+      of
+      impulse purchases a customer makes. Through this data visualization, by filtering
+      for type
+      of product, items that are often bought with it can be determined. Placing items
+      that are
+      often bought together in the same section of the store will increase sales, as
+      customers
+      may be more inclined to purchase them.
+    </p><br />
     <!-- Tableau embed -->
     <div class='tableauPlaceholder' id='viz1676783909842' style='position: relative'>
       <noscript><a href='#'><img alt=' '
@@ -138,6 +183,22 @@
   <section>
     <!-- Profit by hour of day -->
     <h2>Customer Behavior</h2>
+    <p>
+      The store should offer discounts at times with most customers and profits. Customers
+      are
+      more inclined to add another item to their basket if there is a discount on an item
+      they
+      previously hadn’t considered. This makes certain products more appealing, thus
+      increasing
+      revenues. In 2017 and 2018, peak customer counts were at the 11th hour of the day.
+      Following this model, it can be predicted that there will be similar trends in
+      traffic.
+      Discounts should be applied at these peak hours to maximize additional sales. The
+      store
+      could also consider offering discounts at hours when customer count is normally
+      lower to
+      try to increase sales during those periods.
+    </p>
     <!-- Tableau embed -->
     <div class='tableauPlaceholder' id='viz1676779433769' style='position: relative'>
       <noscript><a href='#'><img alt=' '
