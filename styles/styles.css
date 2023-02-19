@@ -12,16 +12,17 @@ h1 {
 h2 {
   font-size: 64px;
   margin-bottom: 24px;
+  color: #1f8a70;
 }
 
 a {
   text-decoration: none;
-  color: #fc7300;
+  color: #1f8a70;
   transition: color 0.3s;
 }
 
 a:hover {
-  color: #1f8a70;
+  color: #bfdb38;
 }
 
 section {
@@ -46,6 +47,15 @@ section.half div {
   align-items: center;
   justify-content: center;
   padding: 24px;
+}
+
+footer {
+  text-align: center;
+}
+
+em {
+  color: #fc7300;
+  font-style: normal;
 }
 
 #title {
